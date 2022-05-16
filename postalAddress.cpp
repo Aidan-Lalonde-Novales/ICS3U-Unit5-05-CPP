@@ -32,8 +32,7 @@ std::string AddressFormat(
         postalAddress.begin(),
         postalAddress.end(),
         postalAddress.begin(),
-        ::toupper
-        );
+        ::toupper);
 
     return postalAddress;
 }
